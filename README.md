@@ -360,7 +360,7 @@ JavaScript 语法，第二重大括号表示样式对象
 如果Promise 对象正在抓取数据（pending 状态），组件显示“正在加载”；如果Promise 对象报错（rejected 状态），组件
 显示报错信息；如果Promise 对象抓取数据成功（fullfilled 状态），组件显示获取的数据
 
-``jsx
+```jsx
     var RepoList = React.createClass({
       getInitialState: function() {
         return { loading: true, error: null, data: null};
